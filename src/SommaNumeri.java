@@ -25,6 +25,13 @@ public class SommaNumeri
 		return x;
 	}
 	
+	public static int somma200(int x)
+	{
+		for (int i = 0; i < 200; i++) 
+			x++;
+		return x;
+	}
+	
 	
 	public static void main(String[] args)
 	{
@@ -33,5 +40,7 @@ public class SommaNumeri
 		System.out.println(somma10(x));
 		System.out.println(somma20(x));
 		System.out.println(somma100(x));
+		System.out.println(somma200(x));
+		
 	}
 }
